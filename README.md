@@ -21,3 +21,5 @@ python analysis.py
 3. v2: drops any feature with p >= 0.05. The version handed over is chosen by training adjusted R-squared.
 4. Fit evaluated on the 72 test cars: R-squared and RMSE, baseline (training mean) vs model.
 5. Decision rule: buy if auction price + $1,500 < predicted sale price. Applied to the 40 lots; profit = Later_Sale_Price - Auction_Price - 1,500.
+
+Note: the model called v2 in analysis.py (Num_Owners dropped) is the final model. It is called v1 on the slides, per the assignment.
